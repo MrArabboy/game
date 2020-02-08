@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Refresh Me</h1>
+
+      <div class="dice">
+        <p>Arabboy</p>
+        <img id="img1" src="">
+      </div>
+
+      <div class="dice">
+        <p>Farrux</p>
+        <img id="img2" src="">
+      </div>
+    </div>
+    <script>
+      var x=Math.floor(Math.random()*6+1);
+      randomimage="images/dice"+x+".png";
+      document.getElementById("img1").src=randomimage;
+      var y=Math.floor(Math.random()*6+1);
+      randomimage="images/dice"+y+".png";
+      document.getElementById("img2").src=randomimage;
+      if (x>y){
+        document.querySelector("h1").textContent="Arabboy haqqoniy yutdi ! Qarsakdi urilar !"
+      }
+      else if (x<y){
+        document.querySelector("h1").textContent="Farrux mashennik g'irromlik bilan yutdi!"
+      }
+      else {
+        document.querySelector("h1").textContent="Durrang"
+      }
+    </script>
+    
+
+
+  </body>
+
+  <h2>Yana o'ynash uchun <span>F5</span> ni bosing ! Yoki sahifani qayta yuklang! </h2>
+</html>
