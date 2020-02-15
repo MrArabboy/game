@@ -72,8 +72,9 @@ span{
   text-align: center;
   margin-top: 50px;
 }
-@media all and (max-height: 2280) {
+@media all and (max-height: 2280px) {
   body {
-	height:50%
+	height:50%;
+	background-color:red;
   }
 }
