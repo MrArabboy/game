@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Game</title>
+    <title>Dicee</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 
@@ -22,6 +22,12 @@
         <img id="img2" src="">
       </div>
     </div>
+    
+    
+    <div class="button-play">
+      <a href="index.html" class="play-button">Play Again</a>
+    </div>
+    
     <script>
       var x=Math.floor(Math.random()*6+1);
       randomimage="images/dice"+x+".png";
@@ -39,12 +45,8 @@
         document.querySelector("h1").textContent="Durrang"
       }
     </script>
-    
-
 
   </body>
   <!-- <h2>Yana o'ynash uchun <span>F5</span> ni bosing ! Yoki sahifani qayta yuklang! </h2> -->
-  <div class="button-play">
-    <a href="index.html" class="play-button">Play Again</a>
-  </div>
+  
 </html>
