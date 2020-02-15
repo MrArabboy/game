@@ -72,9 +72,8 @@ span{
   text-align: center;
   margin-top: 50px;
 }
-@media all and (display-mode: fullscreen) {
+@media all and (max-height: 2280) {
   body {
-	margin-top:30%;  
-    padding: 0px;
+	height:50%
   }
 }
