@@ -74,6 +74,7 @@ span{
 }
 @media all and (display-mode: fullscreen) {
   body {
+	margin-top:30%;  
     padding: 0px;
   }
 }
