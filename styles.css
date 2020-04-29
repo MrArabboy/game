@@ -73,3 +73,6 @@ span{
   margin-top: 50px;
 }
 
+@media screen and (max-width: 1201px) {
+	h1 {color:red}
+}
